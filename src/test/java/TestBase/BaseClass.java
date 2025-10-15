@@ -8,14 +8,12 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
-public class BaseClass {
+public class BaseClass<WebDriver> {
 
     public WebDriver driver;
 
