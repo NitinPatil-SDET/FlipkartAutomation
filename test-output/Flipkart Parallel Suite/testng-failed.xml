@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Flipkart Parallel Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Edge - Windows 11(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="osVersion" value="11"/>
+    <parameter name="browser" value="Edge"/>
+    <parameter name="browserVersion" value="latest"/>
+    <classes>
+      <class name="TestCases.TC02_SearchFilterParallelTest">
+        <methods>
+          <include name="testSearchAndFilter"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC02_SearchFilterParallelTest -->
+    </classes>
+  </test> <!-- Edge - Windows 11(failed) -->
+  <test thread-count="5" parallel="tests" name="Chrome - macOS Ventura(failed)">
+    <parameter name="os" value="OS X"/>
+    <parameter name="osVersion" value="Ventura"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="browserVersion" value="latest"/>
+    <classes>
+      <class name="TestCases.TC02_SearchFilterParallelTest">
+        <methods>
+          <include name="testSearchAndFilter"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC02_SearchFilterParallelTest -->
+    </classes>
+  </test> <!-- Chrome - macOS Ventura(failed) -->
+  <test thread-count="5" parallel="tests" name="Firefox - Windows 10(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="osVersion" value="10"/>
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="browserVersion" value="latest"/>
+    <classes>
+      <class name="TestCases.TC02_SearchFilterParallelTest">
+        <methods>
+          <include name="testSearchAndFilter"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC02_SearchFilterParallelTest -->
+    </classes>
+  </test> <!-- Firefox - Windows 10(failed) -->
+  <test thread-count="5" parallel="tests" name="Safari - macOS Monterey(failed)">
+    <parameter name="os" value="OS X"/>
+    <parameter name="osVersion" value="Monterey"/>
+    <parameter name="browser" value="Safari"/>
+    <parameter name="browserVersion" value="latest"/>
+    <classes>
+      <class name="TestCases.TC02_SearchFilterParallelTest">
+        <methods>
+          <include name="testSearchAndFilter"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC02_SearchFilterParallelTest -->
+    </classes>
+  </test> <!-- Safari - macOS Monterey(failed) -->
+  <test thread-count="5" parallel="tests" name="Chrome - Windows 11(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="osVersion" value="11"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="browserVersion" value="latest"/>
+    <classes>
+      <class name="TestCases.TC02_SearchFilterParallelTest">
+        <methods>
+          <include name="testSearchAndFilter"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC02_SearchFilterParallelTest -->
+    </classes>
+  </test> <!-- Chrome - Windows 11(failed) -->
+</suite> <!-- Failed suite [Flipkart Parallel Suite] -->

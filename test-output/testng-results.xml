@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-11T01:19:01 IST" name="Flipkart Parallel Suite" finished-at="2025-10-11T01:21:08 IST" duration-ms="127183">
+    <groups>
+    </groups>
+    <test started-at="2025-10-11T01:19:01 IST" name="Chrome - Windows 11" finished-at="2025-10-11T01:20:54 IST" duration-ms="113093">
+      <class name="TestCases.TC02_SearchFilterParallelTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC02_SearchFilterParallelTest@413d1baf]" started-at="2025-10-11T01:19:01 IST" name="setUp" finished-at="2025-10-11T01:19:13 IST" duration-ms="12422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearchAndFilter()[pri:0, instance:TestCases.TC02_SearchFilterParallelTest@413d1baf]" started-at="2025-10-11T01:19:13 IST" name="testSearchAndFilter" finished-at="2025-10-11T01:20:53 IST" duration-ms="99181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchAndFilter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC02_SearchFilterParallelTest@413d1baf]" started-at="2025-10-11T01:20:53 IST" name="tearDown" finished-at="2025-10-11T01:20:54 IST" duration-ms="1423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC02_SearchFilterParallelTest -->
+    </test> <!-- Chrome - Windows 11 -->
+    <test started-at="2025-10-11T01:19:01 IST" name="Firefox - Windows 10" finished-at="2025-10-11T01:20:54 IST" duration-ms="113362">
+      <class name="TestCases.TC02_SearchFilterParallelTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC02_SearchFilterParallelTest@28dcca0c]" started-at="2025-10-11T01:19:01 IST" name="setUp" finished-at="2025-10-11T01:19:12 IST" duration-ms="11290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearchAndFilter()[pri:0, instance:TestCases.TC02_SearchFilterParallelTest@28dcca0c]" started-at="2025-10-11T01:19:12 IST" name="testSearchAndFilter" finished-at="2025-10-11T01:20:53 IST" duration-ms="100608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchAndFilter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC02_SearchFilterParallelTest@28dcca0c]" started-at="2025-10-11T01:20:53 IST" name="tearDown" finished-at="2025-10-11T01:20:54 IST" duration-ms="1412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC02_SearchFilterParallelTest -->
+    </test> <!-- Firefox - Windows 10 -->
+    <test started-at="2025-10-11T01:19:01 IST" name="Chrome - macOS Ventura" finished-at="2025-10-11T01:20:57 IST" duration-ms="115757">
+      <class name="TestCases.TC02_SearchFilterParallelTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC02_SearchFilterParallelTest@66982506]" started-at="2025-10-11T01:19:01 IST" name="setUp" finished-at="2025-10-11T01:19:14 IST" duration-ms="12456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ventura]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearchAndFilter()[pri:0, instance:TestCases.TC02_SearchFilterParallelTest@66982506]" started-at="2025-10-11T01:19:14 IST" name="testSearchAndFilter" finished-at="2025-10-11T01:20:55 IST" duration-ms="101876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchAndFilter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC02_SearchFilterParallelTest@66982506]" started-at="2025-10-11T01:20:55 IST" name="tearDown" finished-at="2025-10-11T01:20:57 IST" duration-ms="1374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC02_SearchFilterParallelTest -->
+    </test> <!-- Chrome - macOS Ventura -->
+    <test started-at="2025-10-11T01:19:01 IST" name="Safari - macOS Monterey" finished-at="2025-10-11T01:21:07 IST" duration-ms="125515">
+      <class name="TestCases.TC02_SearchFilterParallelTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC02_SearchFilterParallelTest@c430e6c]" started-at="2025-10-11T01:19:01 IST" name="setUp" finished-at="2025-10-11T01:19:14 IST" duration-ms="12874" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Monterey]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearchAndFilter()[pri:0, instance:TestCases.TC02_SearchFilterParallelTest@c430e6c]" started-at="2025-10-11T01:19:14 IST" name="testSearchAndFilter" finished-at="2025-10-11T01:21:05 IST" duration-ms="111154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchAndFilter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC02_SearchFilterParallelTest@c430e6c]" started-at="2025-10-11T01:21:05 IST" name="tearDown" finished-at="2025-10-11T01:21:07 IST" duration-ms="1425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC02_SearchFilterParallelTest -->
+    </test> <!-- Safari - macOS Monterey -->
+    <test started-at="2025-10-11T01:19:01 IST" name="Edge - Windows 11" finished-at="2025-10-11T01:21:08 IST" duration-ms="127181">
+      <class name="TestCases.TC02_SearchFilterParallelTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC02_SearchFilterParallelTest@52f27fbd]" started-at="2025-10-11T01:19:01 IST" name="setUp" finished-at="2025-10-11T01:19:18 IST" duration-ms="16898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearchAndFilter()[pri:0, instance:TestCases.TC02_SearchFilterParallelTest@52f27fbd]" started-at="2025-10-11T01:19:18 IST" name="testSearchAndFilter" finished-at="2025-10-11T01:21:07 IST" duration-ms="108691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchAndFilter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC02_SearchFilterParallelTest@52f27fbd]" started-at="2025-10-11T01:21:07 IST" name="tearDown" finished-at="2025-10-11T01:21:08 IST" duration-ms="1527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC02_SearchFilterParallelTest -->
+    </test> <!-- Edge - Windows 11 -->
+  </suite> <!-- Flipkart Parallel Suite -->
+</testng-results>
